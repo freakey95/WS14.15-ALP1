@@ -150,4 +150,4 @@ mirrorCapitals xs = [(revASCII y) | y <- xs, fromEnum y >= 65 && fromEnum y <= 9
 			where
 				my_abs y
 					| y < 0 	= -y
-					| otherwise = y
+					| otherwise 	= y
